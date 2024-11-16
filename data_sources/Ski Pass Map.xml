@@ -1,0 +1,4528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ski Pass Map</name>
+    <description><![CDATA[Updated for 2023-2024.<br>Send through updates or comments here: https://www.reddit.com/r/skiing/comments/15tzb5q/google_map_with_all_epic_ikon_mc_ikon_mc_indy/?utm_source=share&utm_medium=web2x&context=3]]></description>
+    <Style id="icon-1574-424242-nodesc-normal">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1574-424242-nodesc-highlight">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1574-424242-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1574-424242-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1574-424242-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1592-558B2F-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1592-558B2F-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1592-558B2F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1592-558B2F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1592-558B2F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1592-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1592-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1592-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1592-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1592-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1688-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1688-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1688-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1688-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1688-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1688-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1688-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1688-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1688-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1688-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1688-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1688-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1688-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1688-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1688-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1689-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1689-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1689-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1689-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1689-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1689-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1689-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1689-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1689-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1689-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-0097A7-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1690-0097A7-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1690-0097A7">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-0097A7-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-0097A7-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1690-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1690-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1690-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1690-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1690-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1694-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1694-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1694-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1694-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1694-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1769-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1769-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1769-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1769-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1769-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1769-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1769-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1769-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1769-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1769-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1871-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1871-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1871-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1871-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1871-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Epic</name>
+      <Placemark>
+        <name>Stevens Pass</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.0890197,47.7448119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northstar California Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.1210934,39.2745678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heavenly Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9428424,38.9569241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kirkwood Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.0651665,38.6847514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park City Mountain</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5079947,40.6514199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vail Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.3549717,39.6061444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crested Butte</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.9878231,38.8697146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Creek Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.5167109,39.6042863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Breckenridge Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.0676088,39.4808351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Keystone Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.9437656,39.6075962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow Creek Ski Area</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.9707416,39.4673048,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paoli Peaks</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -86.5122305,38.5555868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Afton Alps</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.7878062,44.8576608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilmot Mountain Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.1876602,42.4989548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Brighton Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8115217,42.54083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mad River Mountain</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.6777778,40.3180556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpine Valley</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -81.259745,41.52687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boston Mills and Brandywine Ski Areas</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -81.5632108,41.2640987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitetail Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.9333126,39.7417652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Liberty Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.375459,39.76366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laurel Mountain Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.1657908,40.1638728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Valley Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.6506898,38.5353168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Valley Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.2581204,40.058031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Brighton Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.8115217,42.54083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seven Springs Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.2977032,40.0229768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roundtop Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.9275492,40.1094506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jack Frost Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.6563315,41.1091686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Boulder Mountain</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.601282,41.050189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hunter Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.2246402,42.2028811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Snow</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9204014,42.9602444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stowe Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7814124,44.5303066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Okemo Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7170416,43.4018257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Sunapee Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.08014,43.331889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wildcat Mountain</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.2393036,44.2640724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Attitash Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.229443,44.082771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crotched Mountain Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.8655176,43.0198715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whistler Blackcomb</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.9486474,50.1149639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Falls Creek Ski</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            147.273456,-36.8648933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Hotham Alpine Resort (Unincorporated)</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            147.1520642,-36.9940396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Perisher Ski Resort</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            148.4094358,-36.4055484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skiarena Andermatt-Sedrun</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.5916293,46.6324621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Andermatt-Sedrun Sports AG</name>
+        <styleUrl>#icon-1688-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            8.5930394,46.6375582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Epic Partner</name>
+      <Placemark>
+        <name>Telluride</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.8122852,37.9374939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fernie Alpine Resort</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.0866092,49.4638537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kicking Horse Mountain Resort</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0482516,51.2975688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kimberley Alpine Resort</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.0043731,49.6880163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nakiska Ski Area</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.1510985,50.9427038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MONT-SAINTE-ANNE</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.923666,47.0837074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stoneham Mountain Resort</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.3838071,47.0284871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rusutsu Ski Resort ルスツリゾート イーストセンターステーション</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.9105739,42.7367702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hakuba Valley Kashimayari Ski Resort</name>
+        <description><![CDATA[Hakuba Valley offers 5 consecutive days across 9 resorts:<br>- Jiigatake Snow Resort<br>- Kashimayari Ski Resort<br>- ABLE Hakuba Goryu<br>- Hakuba47 Winter Sports Park<br>- Hakuba Happo-one Snow Resort<br>- Hakuba Iwatake Snow Field<br>- Tsugaike Kogen Snow Resort<br>- Hakuba Norikura Onsen Snow Resort<br>- Hakuba Cortina Snow Resort]]></description>
+        <styleUrl>#icon-1688-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            137.8254561,36.5969431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Les 3 Vallées</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.5256494,45.4840477,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Verbier (Les 4 Vallées)</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.2332016,46.0938765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Arlberg (St. Anton, St. Christoph, Stuben, Lech, Zürs, Warth, Schröcken)</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            10.160176,47.1947751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dolomiti Superski</name>
+        <styleUrl>#icon-1688-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.6520936,46.5739752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ikon</name>
+      <Placemark>
+        <name>Palisades Tahoe</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.2483913,39.1906091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mammoth Mountain Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.0267806,37.6510972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>June Mountain Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.0906293,37.7679169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Mountain Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.8608572,34.2276766,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow Summit Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.8892717,34.2364081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow Valley Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.036177,34.2248821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Valley Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.3542874,43.6949128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dollar Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.3461537,43.6820566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crystal Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4747533,46.9352963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alpental</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4257485,47.4442426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Summit at Snoqualmie</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.4164161,47.4245711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Bachelor Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6781891,44.0024701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schweitzer</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.6227441,48.3679757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alyeska Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -149.0985114,60.9704373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Mountain Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.818227,39.1862601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Highlands Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8553613,39.1824124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buttermilk Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8610687,39.2058029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Snowmass Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.9490961,39.2083984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steamboat Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8045169,40.4571991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winter Park Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.762488,39.8868392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Copper Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.1516265,39.501419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arapahoe Basin Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.8719397,39.6425118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eldora Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.5826786,39.9372203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Hole Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8279183,43.5875453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Sky Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.4012076,45.2857289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taos Ski Valley</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.4545,36.5959999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deer Valley Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.478306,40.63738,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Solitude Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.591885,40.619852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brighton Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.583187,40.598019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alta Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6385807,40.5884218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbird</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6563885,40.5810814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbasin Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8571529,41.2161404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boyne Highlands Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.926535,45.4647239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boyne Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.930067,45.162884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stratton Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9278443,43.0906207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugarbush Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8944139,44.1359019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Killington Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7967531,43.6262922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pico Mountain Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.842512,43.6621499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Windham Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.2567116,42.2937298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowshoe Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.9960444,38.4118566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunday River Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.8568727,44.4734182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.3085109,45.0541811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loon Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.6336041,44.0563456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Norquay</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.5982699,51.2037624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banff Sunshine Village</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.7840699,51.0780997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Louise Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1621717,51.4419206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SkiBig3 Adventure Hub</name>
+        <description>Encompasses Banff Sunshine, Lake Louise, and Mt. Norquay (all noted on map)</description>
+        <styleUrl>#icon-1689-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -115.5707632,51.1751675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revelstoke Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.1630779,50.9583858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cypress Mountain</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.204545,49.396018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RED Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8194705,49.1024147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panorama Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.2380671,50.4602801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Peaks Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8859331,50.8844311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont-Tremblant Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.5852526,46.2096417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -80.3122216,44.5037818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle Nevado Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.2521667,-33.3567161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ordino Arcalís estación de esquí</name>
+        <description>Grandvalira Resorts. Days shared between: Ordino Arcalís, Pal Arinsal, and Grandvalira</description>
+        <styleUrl>#icon-1689-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            1.499825,42.6317345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arinsal Ski Resort</name>
+        <description>Grandvalira Resorts. Days shared between: Ordino Arcalís, Pal Arinsal, and Grandvalira</description>
+        <styleUrl>#icon-1689-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            1.4707674,42.5729217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grandvalira</name>
+        <description>Grandvalira Resorts. Days shared between: Ordino Arcalís, Pal Arinsal, and Grandvalira</description>
+        <styleUrl>#icon-1689-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            1.6462281,42.5783833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kitzbuhel</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            12.3925407,47.4492375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chamonix Mont-Blanc Natural Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.8632749,45.924065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dolomiti Superski</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            11.6520936,46.5739752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zermatt Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            7.7522747,46.0222204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thredbo Alpine Hotel</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            148.3042322,-36.5047125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Buller Alpine Central</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            146.4486104,-37.1452562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coronet Peak</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.7362725,-44.9271654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Remarkables Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.8143041,-45.0540695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt Hutt Ski Area</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            171.5400686,-43.4956884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niseko Ski Lodge - Higashiyama</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.6702574,42.8407018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOTTE ARAI RESORT Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            138.1800776,36.989476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Camelback Ski Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.3511871,41.0492313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Mountain Resort</name>
+        <styleUrl>#icon-1689-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.520864,40.81073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mountain Collective</name>
+      <Placemark>
+        <name>Alta Ski Area</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6385807,40.5884218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arapahoe Basin Ski Area</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.8719397,39.6425118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Snowmass Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains  (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1690-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -106.9490961,39.2083984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Highlands Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1690-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8553613,39.1824124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Mountain Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1690-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -106.818227,39.1862601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buttermilk Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1690-0097A7</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8610687,39.2058029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Sky Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.4012076,45.2857289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Targhee Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.9579337,43.7888327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Hole Mountain Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8279183,43.5875453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbasin Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8571529,41.2161404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbird</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6563885,40.5810814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugar Bowl Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.3334022,39.3004435,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf Ski Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.3085109,45.0541811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Valley Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.354321,43.694875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taos Ski Valley</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.4545,36.5959999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banff Sunshine Village</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.7840699,51.0780997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Louise Ski Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1621717,51.4419206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Massif</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.5750987,47.2774566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marmot Basin</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.0831592,52.8011121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panorama Mountain Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.2380671,50.4602801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revelstoke Mountain Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.1630779,50.9583858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Peaks Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8859331,50.8844311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niseko Ski Lodge - Higashiyama</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.6702574,42.8407018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chamonix</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.869433,45.923697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Buller Alpine Central</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            146.4486104,-37.1452562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coronet Peak</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.7362725,-44.9271654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Remarkables Ski Area</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.8143041,-45.0540695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle Nevado Ski Resort</name>
+        <styleUrl>#icon-1690-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.2521667,-33.3567161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MC / Ikon Crossover</name>
+      <Placemark>
+        <name>Alta Ski Area</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6385807,40.5884218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arapahoe Basin Ski Area</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.8719397,39.6425118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Snowmass Ski Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.9490961,39.2083984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Mountain Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1769-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -106.818227,39.1862601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspen Highlands Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1769-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8553613,39.1824124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Banff Sunshine Village</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.7840699,51.0780997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buttermilk Ski Resort</name>
+        <description>The MC will only give you two days total between all of the Aspen Snowmass Mountains (Aspen Mountain, Aspen Highlands, Buttermilk, Snowmass)</description>
+        <styleUrl>#icon-1769-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8610687,39.2058029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Sky Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.4012076,45.2857289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chamonix Mont-Blanc Natural Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.8632749,45.924065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coronet Peak</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.7362725,-44.9271654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Remarkables Ski Area</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            168.8143041,-45.0540695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Hole Mountain Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8279183,43.5875453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Louise Ski Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1621717,51.4419206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Buller Alpine Central</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            146.4486104,-37.1452562,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niseko Ski Lodge - Higashiyama</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.6702574,42.8407018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panorama Mountain Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.2380671,50.4602801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Revelstoke Mountain Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.1630779,50.9583858,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbasin Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.8571529,41.2161404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbird</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6563885,40.5810814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sugarloaf Mountain Hotel</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.3085284,45.0541049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Peaks Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.8859331,50.8844311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Valley Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.354321,43.694875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taos Ski Valley</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.4545,36.5959999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Valle Nevado Ski Resort</name>
+        <styleUrl>#icon-1769-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.2521667,-33.3567161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Powder Alliance</name>
+      <Placemark>
+        <name>Angel Fire Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.2721983,36.3866879,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blacktail Mountain Ski Area</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.3695668,48.0148365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bogus Basin</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1026168,43.7640569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Mountain Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4125829,49.3191188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Peak Mountain Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.1573708,37.2364356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dodge Ridge Ski Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9558639,38.1898028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eaglecrest Ski Area</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -134.5128166,58.2745312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiroro Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.9894561,43.0677108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Trail Ski Area</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.9520679,45.6922649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loveland Ski Area</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.8979465,39.6800375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mission Ridge Ski & Board Resort]]></name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.399871,47.2924657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain High Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.6915242,34.3769418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Hood Skibowl</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.773296,45.3019084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Shasta Ski Park</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.203502,41.321106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sierra-at-Tahoe Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.0804043,38.8002432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Mountain Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.133171,47.540718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marmot Basin</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.0831592,52.8011121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Cooper</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.301445,39.3601951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow King Mountain Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7560353,43.4728087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Timberline Lodge</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.7110064,45.3311281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turoa</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            175.5269275,-39.3043775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whakapapa</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            175.556667,-39.2368965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Pass Ski Resort</name>
+        <styleUrl>#icon-1871-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3913233,46.6373531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Indy Pass</name>
+      <Placemark>
+        <name>Arctic Valley Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -149.5324804,61.2465242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Moose Mountain Ski and Snowboard Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -147.9916229,64.940483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eaglecrest Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -134.5128166,58.2745312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apex Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9039056,49.3906283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manning Park Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.9149346,49.0689289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sasquatch Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.9398539,49.3800012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>China Peak Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.1573708,37.2364356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dodge Ridge Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9558639,38.1898028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mountain High Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.6915242,34.3769418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Shasta Ski Park</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.203502,41.321106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoodoo Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8714158,44.4086439,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Ashland Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.704754,42.081685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Hood Meadows</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6651847,45.3317552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>49° North Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.5629161,48.3010972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hurricane Ridge Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.4951352,47.9699846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mission Ridge Ski & Board Resort]]></name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.399871,47.2924657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bluewood</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8511137,46.0824682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Pass Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.3913233,46.6373531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Castle Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4125829,49.3191188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunrise Park Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.553757,33.9996234,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>[Permanently closed] Bluebird Backcountry</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.5491264,40.3990643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Echo Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.5193928,39.6845817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granby Ranch</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.9063325,40.0446489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunlight Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.3387647,39.3997821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brundage Mountain Resort Idaho Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.154412,45.0054,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kelly Canyon Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.6298851,43.6460169,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pomerelle Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.6077523,42.3179871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Silver Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.133171,47.540718,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soldier Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.82917,43.48472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tamarack Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1225051,44.66996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blacktail Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.3695668,48.0148365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Trail Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.9520679,45.6922649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Lodge Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.3364169,45.1908081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beaver Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.544144,41.968075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Point Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3838562,38.3203245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powder Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.780685,41.378963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antelope Butte Mountain Recreation Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.5145248,44.6124452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meadowlark Ski Lodge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.213684,44.1739654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow King Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.7560353,43.4728087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Pine Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.7586597,42.9778494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chestnut Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.393793,42.319017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Crescent Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.860359,41.39421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sundown Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.8186286,42.5163315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Powderhorn Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.0962219,46.5092735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caberfae Peaks</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7205725,44.2447088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crystal Mountain (Michigan)</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9922593,44.5199554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marquette Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.4208097,46.5082074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nubs Nob Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.9048135,45.4714767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pine Mountain Ski and Golf Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0887374,45.8391227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schuss Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.133126,44.940947,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackson Creek Summit at Snowriver Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.970939,46.500277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Swiss Valley Ski & Snowboard Area]]></name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.8269264,41.9538655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Treetops Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5892776,45.0330748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buck Hill</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.2835401,44.7248314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Detroit Mountain Recreation Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.783285,46.8130934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lutsen Mountains</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.7135557,47.663713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Kato Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.0334256,44.1331486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powder Ridge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.305315,45.343693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spirit Mountain Recreation Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.2167365,46.7182684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loch Lomond Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.3482353,48.2939871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Terry Peak Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -103.840383,44.334573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Granite Peak Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.683162,44.929236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Switzerland Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2789411,43.3379806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nordic Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1812815,44.1214576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Rock Snowpark</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.0150741,42.9199364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trollhaugen Outdoor Recreation Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.6180935,45.3513159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tyrol Basin</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.7841088,43.0445285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mohawk Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.3150586,41.838231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BigRock Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -67.8289461,46.5224036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Mountain of Maine</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.6133333,44.5769444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saddleback Ski Mountain Maine</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.5270815,44.9462173,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berkshire East Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.877135,42.6211485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1637835,44.1666812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cannon Mountain Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.7018243,44.1773749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pats Peak Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.7976596,43.1639733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waterville Valley Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5279084,43.9651774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catamount Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4769258,42.1690998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greek Peak Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.1454427,42.5082644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Peek'n Peak Resort]]></name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.7355401,42.0623302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snow Ridge Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.4201233,43.6397478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.8551328,42.4765984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Titus Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.235278,44.763333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.725285,43.285651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calabogie Peaks Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.7803903,45.274401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bolton Valley Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8512726,44.4223862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jay Peak Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5047723,44.9379013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magic Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7725584,43.2017518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saskadena Six</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5432659,43.6650614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cataloochee Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.089964,35.562438,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Knob All Seasons Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.543661,40.2968813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Montage Mountain Resorts</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.6629169,41.3512429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shawnee Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.085262,41.039612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Sawmill Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.2893401,41.5194205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tussey Mountain Ski and Recreation</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.7539318,40.769202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ober Gatlinburg</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.5582614,35.7031411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bryce Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.7644922,38.8192355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Massanutten Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.7161223,38.4065721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Canaan Valley Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4385227,39.0083502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winterplace Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -81.1199689,37.5957453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aomori Spring Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.2793,40.693185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Geto Kogen Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.906277,39.236631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Okunakayama Kogen</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            141.1904626,40.0833678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shimokura Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.9568902,39.8990404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tazawako Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.7707131,39.7623337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) 49° North Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.5562564,48.3041165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Bear Valley Adventure Company (BVAC)</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.0422698,38.4620346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Catamount Outdoor Family Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0487475,44.4480867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Crosscut Mountain Sports Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8842926,45.8281593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Enchanted Forest Cross Country Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.3479178,36.7001834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) High Point Cross Country Ski Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.67076,41.30625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Jackson Xc</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1849246,44.1455635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Jay Peak Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4993133,44.9390983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Manning Park Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.7869997,49.0636051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Maplelag Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.7767394,47.009156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Mt Hood Meadows Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6346571,45.3254193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Nickel Plate Nordic Centre</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9542074,49.383699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Rangeley Lakes Trails Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.5658954,44.9564326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Rikert Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.991087,43.954787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Sovereign Lake Nordic Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.105133,50.36244,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Treetops Skier Services</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5834186,45.0378433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) White Grass</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4217,39.019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Caledonia Nordic Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.8732369,53.9706141,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Williams Lake Cross Country Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.1202455,52.2464628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Overlander Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.4812088,50.5172576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Golden Nordic Ski Club - Dawn Mountain Trails</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.0588302,51.3057823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Kimberley Nordic Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.0069369,49.6822765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Telemark Nordic Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.714927,49.863107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Nickel Plate Nordic Centre</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.9542074,49.383699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Black Jack Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.81361,49.112922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Nelson Nordic Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.2111472,49.409235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Hardwood Ski and Bike</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.5917537,44.5176652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Leavenworth Ski Hill</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.668688,47.6141122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Methow Trails</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -120.1800158,48.4681634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) White Pine Touring Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5141302,40.6621212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[(XC) Dog Creek Lodge & Nordic Center]]></name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.6067352,48.5910034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Woodstock Nordic Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5161278,43.6151845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Homestake Lodge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3808979,45.9052331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Turpin Meadow Ranch and Restaurant</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.2708794,43.8549223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) White Grass</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4217,39.019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Garnet Hill Lodge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.1073436,43.7124502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) High Point Cross Country Ski Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.67076,41.30625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Trapp Family Lodge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7451723,44.4654613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Rangeley Lakes Trails Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.5658954,44.9564326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(XC) Quarry Road Trails</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -69.6579915,44.5826282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hudson Bay Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -127.3397222,54.8116666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shames Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -128.9528149,54.484131,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whistler Olympic Park</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -123.1139899,50.139202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairmont Hot Springs Resort Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -115.8259048,50.3388252,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big White Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.9439326,49.7313098,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baldy Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.2364219,49.1528412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phoenix Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -118.584039,49.103709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pass Powderkeg Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.4488525,49.6028404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bottineau Winter Park</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.4749526,48.950695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Baldy Ski</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1282432,48.5258002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bluewood</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.8511137,46.0824682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loup Loup Ski Bowl</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.91097,48.3943616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cooper Spur Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.6054,45.4125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Tamarack Ski Resorts, Weather & Snow Report]]></name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1193956,44.6732427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blacktail Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -114.3695668,48.0148365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowbowl</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.999568,47.014436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Trail Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -113.9520679,45.6922649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Howelsen Hill Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.8379721,40.4833683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Bear Ski Valley</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -96.6645469,43.5780023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Huff Hills Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -100.723214,46.627425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Andes Tower Hills</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.6304971,45.850975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowstar</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.7461749,41.425203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Minocqua Winter Park</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.8952081,45.830018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Treetops Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.5892776,45.0330748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Lakeview Hotel at Shanty Creek Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.1850784,44.9485751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ober Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -83.5582614,35.7031411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Blue Knob All Seasons Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.5640458,40.2885997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Big Bear at Masthope Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.0250626,41.5232598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maple Ski Ridge</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0323068,42.817071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hickory Ski Center</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.816914,43.4760764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saskadena Six</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5432659,43.6650614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whaleback Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.180265,43.601705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dartmouth Skiway</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.099538,43.787748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SkiWelt</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            12.1908727,47.5031128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pippu Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            142.4998309,43.9331104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kamui Ski Links</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            142.187102,43.704967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Racey Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            141.9698251,43.0507014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kiroro Snow World</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            141.0269116,43.0561302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ani Ski Resort (Mt. Moriyoshi)</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            140.49767,39.9573111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Togakushi Ski Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            138.094631,36.754361,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Madarao Mountain Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            138.2906058,36.8524572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Paul Bunyan Ski Hill</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5242538,45.3255767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Cherry Peak Resort</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7564058,41.9263482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Bousquet Mountain Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.2765984,42.4190908,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Mont Ripley Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5600458,47.1279318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Skaneateles Ski Club</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.333757,42.9152119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Burke Mountain</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.8923159,44.5711658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) Middlebury Snowbowl</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9575872,43.9391922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) McIntyre Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.443787,43.007397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>(Indy Allied) King Pine Ski Area</name>
+        <styleUrl>#icon-1694-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0889018,43.8680791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Cooper Pass (includes Freedom Pass & Powder Alliance Resorts)]]></name>
+      <Placemark>
+        <name>Monarch Mountain</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.3319719,38.5120635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powderhorn</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.0957545,38.277135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pebble Creek Ski Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.1592798,42.7785571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowstar</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.7461749,41.425203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mt. Crescent Ski Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -95.860359,41.39421,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seven Oaks Recreation</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.9533806,42.0306987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont Ripley Ski Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.5600458,47.1279318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Giants Ridge Recreation Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.3031692,47.5765197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Divide Ski Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.313478,46.753073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Diamond Peak Ski Resort</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -119.92381,39.2536805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Apache</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.788716,33.397328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plattekill Mountain</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.6531936,42.2902851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beech Mountain Ski Resort</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -81.8780057,36.194648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bear Creek Ski and Recreation Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -75.6257476,40.4766654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Pleasant of Edinboro</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -80.070287,41.850989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sundance Ski Resorts</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.5810657,40.3928123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mt. Spokane Ski & Snowboard Park]]></name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.096416,47.921382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whitecap Mountains Resort</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.3969777,46.4069352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hogadon Basin Ski Area</name>
+        <description>No Night Skiing</description>
+        <styleUrl>#icon-1592-558B2F</styleUrl>
+        <Point>
+          <coordinates>
+            -106.3389955,42.7452867,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pine Creek Ski Resort</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -110.8287957,42.1029457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Sleeping Giant Ski Area & Zipline]]></name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -109.9394434,44.4929236,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snowy Range Ski Area</name>
+        <styleUrl>#icon-1592-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.1835168,41.3412218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Freedom Pass</name>
+      <Placemark>
+        <name>Black Mountain Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1637835,44.1666812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bogus Basin</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -116.1026168,43.7640569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Caberfae Peaks</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.7205725,44.2447088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cherry Peak Resort</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -111.7564058,41.9263482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crystal Mountain</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -85.9922593,44.5199554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Point Resort</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -112.3838562,38.3203245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eaglecrest Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -134.5128166,58.2745312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Switzerland Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.2789411,43.3379806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lost Valley Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.282957,44.1360699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Masella</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            1.9024443,42.3515178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McIntyre Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.443787,43.007397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont du Lac Resort</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.2843354,46.651616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Southington Ski Area</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9248698,41.5821041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mt. Spokane Ski & Snowboard Park]]></name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -117.096416,47.921382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nordic Mountain</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -89.1812815,44.1214576,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Red River Ski & Summer Area]]></name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -105.4128874,36.7062461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skaneateles Ski Club</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -76.333757,42.9152119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ski Cooper</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -106.301445,39.3601951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunlight Mountain Resort</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -107.3387647,39.3997821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Rock Snowpark</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -88.016061,42.9200364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Whaleback Mountain</name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.180265,43.601705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Yawgoo Valley Ski Area & Water Park]]></name>
+        <styleUrl>#icon-1574-424242-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5272242,41.5175274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
